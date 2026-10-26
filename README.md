@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Prediction
 
-### Beginner Machine Learning | Binary Classification
+### Machine Learning | Binary Classification
 
 In this project, we explore health measurements to predict the `HeartDisease` label using **Logistic Regression**. We analyze the dataset, prepare the features, train a model, and evaluate its predictions with simple Python code.
 
@@ -34,27 +34,11 @@ The dataset contains features such as age, chest pain type, blood pressure, chol
 
 These results come from **one 80/20 train/test split** (`random_state=42`). They do not establish clinical performance.
 
-## Run Locally
-
-Download `heart.csv` from the Kaggle link above and place it **in the same folder** as `Heart_Disease_Prediction.ipynb`.
-
-Install the required libraries:
-
-```bash
-pip install pandas matplotlib seaborn scikit-learn notebook
-```
-
-Then open the notebook with Jupyter and run the cells in order:
-
-```bash
-jupyter notebook Heart_Disease_Prediction.ipynb
-```
 
 ## Limitations
 
 - The dataset has **172 zero values in `Cholesterol`** and **one zero value in `RestingBP`**. These may represent unrecorded measurements; they were not corrected in this beginner project.
 - The reported metrics are based on a single test split and may change with different data.
-- This is an **educational Machine Learning project**, not a tool for medical diagnosis or treatment decisions.
 
 ## Data Source
 
