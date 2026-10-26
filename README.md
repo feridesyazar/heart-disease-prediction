@@ -15,13 +15,13 @@ The dataset contains features such as age, chest pain type, blood pressure, chol
 
 ## Project Steps
 
-1. **Data Overview:** Read the CSV and inspect the columns.
-2. **EDA:** Check data types, missing values, and basic statistics.
-3. **Visualization:** Explore class distribution, maximum heart rate, and correlations.
-4. **Feature Engineering:** Convert categorical columns using `pd.get_dummies()`.
-5. **Train/Test Split:** Use 80% for training and 20% for testing, with stratification.
-6. **Scaling and Modelling:** Fit `StandardScaler` on the training data and train Logistic Regression.
-7. **Evaluation:** Review Accuracy, Precision, Recall, F1-Score, and the confusion matrix.
+1. **Data Overview:** Read the CSV and inspect the columns
+2. **EDA:** Check data types, missing values, and basic statistics
+3. **Visualization:** Explore class distribution, maximum heart rate, and correlations
+4. **Feature Engineering:** Convert categorical columns using `pd.get_dummies()`
+5. **Train/Test Split:** Use 80% for training and 20% for testing, with stratification
+6. **Scaling and Modelling:** Fit `StandardScaler` on the training data and train Logistic Regression
+7. **Evaluation:** Review Accuracy, Precision, Recall, F1-Score, and the confusion matrix
 
 ## Results
 
@@ -42,4 +42,4 @@ These results come from **one 80/20 train/test split** (`random_state=42`). They
 
 ## Data Source
 
-[Fedesoriano – Heart Failure Prediction Dataset (Kaggle)](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). Please review the dataset's terms before redistributing the CSV.
+[Fedesoriano – Heart Failure Prediction Dataset (Kaggle)](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
